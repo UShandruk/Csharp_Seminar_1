@@ -9,7 +9,16 @@ using System;
 public class Answer {
     static string PrintEvenNumbers(int number)
     {
-      
+      // Введите свое решение ниже
+      string result = "";
+      // Введите свое решение ниже
+      for (int i = 1; i <= number; i++) 
+      {
+        if(i%2 == 0)
+          result = result + "\t" + i;
+      }
+      result.Trim();
+      return result;
     }
 
 
